@@ -84,7 +84,7 @@ const Contact = () => {
                 <p className="text-gray-600">
                   123 Agriculture Road, <br />
                   Farmington District, <br />
-                  New Delhi, India
+                  Mumbai, India
                 </p>
               </div>
 
@@ -95,7 +95,7 @@ const Contact = () => {
 
               <div>
                 <h3 className="font-medium text-gray-800">Email</h3>
-                <p className="text-gray-600">info@avkrishi.com</p>
+                <p className="text-gray-600">singhabhi292004@gmail.com</p>
               </div>
 
               <div>
@@ -131,5 +131,6 @@ const Contact = () => {
     </div>
   );
 };
+
 
 export default Contact;
