@@ -18,7 +18,7 @@ const TraceBatch = () => {
       stage: "Farming",
       location: "Farm in Punjab",
       date: "2025-08-15",
-      handler: "John Doe (Farmer)",
+      handler: "Ramesh (Farmer)",
       details: "Harvested wheat crop"
     },
     {
@@ -205,5 +205,6 @@ const TraceBatch = () => {
     </div>
   );
 };
+
 
 export default TraceBatch;
