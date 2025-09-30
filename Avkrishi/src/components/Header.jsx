@@ -43,7 +43,7 @@ const Header = () => {
           break;
         case "retailer":
           setProfileImage(retailerProfile);
-          setUsername("Retailer Ramesh");
+          setUsername("Retailer Raman");
           break;
         case "wholesaler":
           setProfileImage(wholesalerProfile);
@@ -215,3 +215,4 @@ const Header = () => {
 
 
 export default Header;
+
