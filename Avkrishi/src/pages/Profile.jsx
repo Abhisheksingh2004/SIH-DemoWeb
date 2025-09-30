@@ -10,13 +10,13 @@ import otherProfile from "../assets/Profile/image6.png";
 
 const Profile = () => {
   const [profileData, setProfileData] = useState({
-    id: '123456',
+    id: 'AVK4357855',
     username: 'farmer_john',
-    name: 'John Doe',
+    name: 'Usernamexyz',
     role: 'Farmer',
     location: 'Punjab, India',
     contact: '+91 98765 43210',
-    email: 'john.doe@example.com'
+    email: 'xyz@example.com'
   });
   const [profileImage, setProfileImage] = useState(defaultProfile);
 
@@ -183,3 +183,4 @@ const Profile = () => {
 
 
 export default Profile;
+
