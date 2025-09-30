@@ -34,23 +34,23 @@ const Profile = () => {
       switch (storedRole) {
         case "farmer":
           setProfileImage(farmerProfile);
-          userData.name = "Ravi Kumar";
+          userData.name = "Ravishankar Kumar";
           userData.username = "farmer_ravi";
           break;
         case "distributor":
           setProfileImage(distributorProfile);
-          userData.name = "Anand Verma";
-          userData.username = "dist_anand";
+          userData.name = "Anandi Verma";
+          userData.username = "dist_anandi";
           break;
         case "retailer":
           setProfileImage(retailerProfile);
-          userData.name = "Priya Sharma";
-          userData.username = "retailer_priya";
+          userData.name = "Raman Sharma";
+          userData.username = "retailer_raman";
           break;
         case "wholesaler":
           setProfileImage(wholesalerProfile);
-          userData.name = "Amit Singh";
-          userData.username = "wholesaler_amit";
+          userData.name = "Daya Devi";
+          userData.username = "wholesaler_dayadevi";
           break;
         case "trader":
           setProfileImage(traderProfile);
@@ -180,5 +180,6 @@ const Profile = () => {
     </div>
   );
 };
+
 
 export default Profile;
