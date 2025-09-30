@@ -9,7 +9,7 @@ import profile6 from "../assets/Profile/image6.png";
 const ProfileSuggestions = () => {
   // Sample profile data
   const profiles = [
-    { id: 1, image: profile1, name: "Farmer Ravishakar", role: "Farmer", location: "Punjab" },
+    { id: 1, image: profile1, name: "Farmer Ravishankar", role: "Farmer", location: "Punjab" },
     { id: 2, image: profile2, name: "Wholesaler Dayadevi", role: "Wholesaler", location: "Delhi" },
     { id: 3, image: profile3, name: "Retailer Raman", role: "Retailer", location: "Mumbai" },
     { id: 4, image: profile4, name: "Distributor Anandi", role: "Distributor", location: "Bangalore" },
@@ -46,3 +46,4 @@ const ProfileSuggestions = () => {
 
 
 export default ProfileSuggestions;
+
