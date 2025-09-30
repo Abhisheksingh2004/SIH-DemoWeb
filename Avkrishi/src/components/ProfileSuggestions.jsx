@@ -9,10 +9,10 @@ import profile6 from "../assets/Profile/image6.png";
 const ProfileSuggestions = () => {
   // Sample profile data
   const profiles = [
-    { id: 1, image: profile1, name: "Farmer Ravi", role: "Farmer", location: "Punjab" },
-    { id: 2, image: profile2, name: "Wholesaler Amit", role: "Wholesaler", location: "Delhi" },
-    { id: 3, image: profile3, name: "Retailer Priya", role: "Retailer", location: "Mumbai" },
-    { id: 4, image: profile4, name: "Distributor Anand", role: "Distributor", location: "Bangalore" },
+    { id: 1, image: profile1, name: "Farmer Ravishakar", role: "Farmer", location: "Punjab" },
+    { id: 2, image: profile2, name: "Wholesaler Dayadevi", role: "Wholesaler", location: "Delhi" },
+    { id: 3, image: profile3, name: "Retailer Raman", role: "Retailer", location: "Mumbai" },
+    { id: 4, image: profile4, name: "Distributor Anandi", role: "Distributor", location: "Bangalore" },
     { id: 5, image: profile5, name: "Trader Vikram", role: "Trader", location: "Chennai" },
     { id: 6, image: profile6, name: "Farmer Sunita", role: "Farmer", location: "Haryana" }
   ];
@@ -43,5 +43,6 @@ const ProfileSuggestions = () => {
     </section>
   );
 };
+
 
 export default ProfileSuggestions;
