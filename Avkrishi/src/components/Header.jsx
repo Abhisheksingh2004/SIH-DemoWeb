@@ -35,19 +35,19 @@ const Header = () => {
       switch (storedRole) {
         case "farmer":
           setProfileImage(farmerProfile);
-          setUsername("Farmer Ravi");
+          setUsername("Farmer Ravishankar");
           break;
         case "distributor":
           setProfileImage(distributorProfile);
-          setUsername("Distributor Anand");
+          setUsername("Distributor Anandi");
           break;
         case "retailer":
           setProfileImage(retailerProfile);
-          setUsername("Retailer Priya");
+          setUsername("Retailer Ramesh");
           break;
         case "wholesaler":
           setProfileImage(wholesalerProfile);
-          setUsername("Wholesaler Amit");
+          setUsername("Wholesaler Dayadevi");
           break;
         case "trader":
           setProfileImage(traderProfile);
@@ -212,5 +212,6 @@ const Header = () => {
     </div>
   );
 };
+
 
 export default Header;
